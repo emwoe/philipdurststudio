@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/Lexend-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LexendDeca";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/LexendDeca-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "LexendZetta";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/LexendZetta-Regular.ttf") format("truetype");
+}
