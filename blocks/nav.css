@@ -1,0 +1,79 @@
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-15deg);
+  }
+  80% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.nav {
+  align-self: flex-end;
+  padding-right: 5vw;
+  padding-top: 80px;
+  margin: 0;
+  width: 40%;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: "Lexend", sans-serif;
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+}
+
+.nav__link-name {
+  margin: 0;
+  color: navy;
+}
+
+.nav__img {
+  width: 50px;
+  margin: 0 15px 0 15px;
+}
+
+.nav__link-name:hover {
+  color: #157a7a;
+}
+
+.nav__img:hover {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+@media all and (max-width: 750px) {
+  .nav {
+    width: 45%;
+    padding-right: 10vw;
+    padding-top: 40px;
+  }
+
+  .nav__links {
+    font-size: 1em;
+  }
+
+  .nav__img {
+    width: 40px;
+    margin: 0 10px 0 10px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .nav {
+    align-self: center;
+    padding-bottom: 40px;
+  }
+
+  .nav__links {
+    font-size: 0.8em;
+  }
+}
